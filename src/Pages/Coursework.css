@@ -1,0 +1,70 @@
+.coursework-container {
+    min-height: 100vh;
+    background: linear-gradient(to bottom right, #4a148c, #6a1b9a, #8e24aa);
+    padding: 2rem;
+    color: white;
+  }
+  
+  .coursework-title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .coursework-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+  }
+  
+  .semester-card {
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 1.5rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .semester-card:hover {
+    transform: translateY(-10px);
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  
+  .semester-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: white;
+  }
+  
+  .course-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .course-item {
+    margin-bottom: 0.5rem;
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 1.6;
+  }
+  
+  .course-code {
+    font-weight: bold;
+    color: white;
+  }
+  
+  .course-grade {
+    color: rgba(255, 255, 255, 0.8);
+    font-style: italic;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .coursework-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+  
