@@ -5,7 +5,7 @@ const coursework = [
   {
     semester: "Fall 2022",
     courses: [
-      { courseCode: "CS101", courseName: "Introduction to Computer Science", grade: "" },
+      { courseCode: "COP4530", courseName: "Introduction to Computer Science", grade: "" },
       { courseCode: "MATH150", courseName: "Calculus I", grade: "" },
     ],
   },
